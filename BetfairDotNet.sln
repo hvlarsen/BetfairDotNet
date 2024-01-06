@@ -450,6 +450,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{E99D09
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{4AB7CE8E-5AD8-4429-85AC-A6792216C6B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptToLogin", "AdaptToLogin\AdaptToLogin.csproj", "{237E2C6A-0B71-41B8-875F-26ACF3CF61BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C5A23823-2294-4BCB-A32A-D3A7092A4E73} = {C5A23823-2294-4BCB-A32A-D3A7092A4E73}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -464,6 +469,10 @@ Global
 		{F369E322-2317-4FA3-86C6-FA92A2B2EEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F369E322-2317-4FA3-86C6-FA92A2B2EEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F369E322-2317-4FA3-86C6-FA92A2B2EEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237E2C6A-0B71-41B8-875F-26ACF3CF61BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237E2C6A-0B71-41B8-875F-26ACF3CF61BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237E2C6A-0B71-41B8-875F-26ACF3CF61BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237E2C6A-0B71-41B8-875F-26ACF3CF61BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
